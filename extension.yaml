@@ -1,0 +1,5 @@
+routes:
+  - path: /extensions/test
+    method: GET
+    controller: TestController
+    action: index
