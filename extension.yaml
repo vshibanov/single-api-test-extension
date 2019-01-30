@@ -3,3 +3,5 @@ routes:
     method: GET
     controller: TestController
     action: index
+services:
+  - TestService
