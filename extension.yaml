@@ -3,6 +3,6 @@ routes:
     method: GET
     controller: TestController
     action: index
-    roles: ["+ssp"]
+    roles: ["+ssp", "+test_role"]
 services:
   - TestService
